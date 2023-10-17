@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Killbox
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 467321461
+    locked: 0
+  - name: Decoraciones de fondo
+    uniqueID: 346430019
+    locked: 0
+  - name: Entidades
+    uniqueID: 3243078473
+    locked: 0
+  - name: Decoraciones de frente
+    uniqueID: 4079341157
+    locked: 0
+  - name: Terreno
+    uniqueID: 2477325795
     locked: 0
