@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
         float velocidadObjetivo = inputJugador * velocidad;
         float diferenciaVelocidad = velocidadObjetivo - rb.velocity.x;
 
-
         rb.AddForce(Vector2.right * diferenciaVelocidad);
 
         Debug.DrawRay(transform.position, rb.velocity, Color.red);
